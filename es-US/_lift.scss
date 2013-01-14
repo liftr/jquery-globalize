@@ -1,0 +1,5 @@
+@import "liftr/jquery-globalize"
+
+@include load-js("jquery-globalize/es-US", "jquery-globalize/js/cultures/globalize.culture.es-US");
+
+@include lifted("jquery-globalize/es-US");

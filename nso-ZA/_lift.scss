@@ -1,0 +1,5 @@
+@import "liftr/jquery-globalize"
+
+@include load-js("jquery-globalize/nso-ZA", "jquery-globalize/js/cultures/globalize.culture.nso-ZA");
+
+@include lifted("jquery-globalize/nso-ZA");

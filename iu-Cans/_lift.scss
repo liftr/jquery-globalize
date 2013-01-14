@@ -1,0 +1,5 @@
+@import "liftr/jquery-globalize"
+
+@include load-js("jquery-globalize/iu-Cans", "jquery-globalize/js/cultures/globalize.culture.iu-Cans");
+
+@include lifted("jquery-globalize/iu-Cans");

@@ -1,0 +1,5 @@
+@import "liftr/jquery-globalize"
+
+@include load-js("jquery-globalize/or-IN", "jquery-globalize/js/cultures/globalize.culture.or-IN");
+
+@include lifted("jquery-globalize/or-IN");

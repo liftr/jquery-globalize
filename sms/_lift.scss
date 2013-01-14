@@ -1,0 +1,5 @@
+@import "liftr/jquery-globalize"
+
+@include load-js("jquery-globalize/sms", "jquery-globalize/js/cultures/globalize.culture.sms");
+
+@include lifted("jquery-globalize/sms");

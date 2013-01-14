@@ -1,0 +1,5 @@
+@import "liftr/jquery-globalize"
+
+@include load-js("jquery-globalize/qut-GT", "jquery-globalize/js/cultures/globalize.culture.qut-GT");
+
+@include lifted("jquery-globalize/qut-GT");

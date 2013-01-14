@@ -1,0 +1,5 @@
+@import "liftr/jquery-globalize"
+
+@include load-js("jquery-globalize/az-Cyrl-AZ", "jquery-globalize/js/cultures/globalize.culture.az-Cyrl-AZ");
+
+@include lifted("jquery-globalize/az-Cyrl-AZ");

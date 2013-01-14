@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "@import \"liftr/jquery-globalize\"" >> $1/_lift.scss
+echo "" >> $1/_lift.scss
+echo "@include load-js(\"jquery-globalize/$1\", \"jquery-globalize/js/cultures/globalize.culture.$1\");" >> $1/_lift.scss
+echo "" >> $1/_lift.scss
+echo "@include lifted(\"jquery-globalize/$1\");" >> $1/_lift.scss

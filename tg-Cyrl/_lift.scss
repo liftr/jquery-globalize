@@ -1,0 +1,5 @@
+@import "liftr/jquery-globalize"
+
+@include load-js("jquery-globalize/tg-Cyrl", "jquery-globalize/js/cultures/globalize.culture.tg-Cyrl");
+
+@include lifted("jquery-globalize/tg-Cyrl");
